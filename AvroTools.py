@@ -16,9 +16,9 @@ COMMAND_NOT_FOUND_MSG = """
 * Please make sure 'avro-tools' is executable and is on your PATH
 * In linux you can create file in /usr/local/bin/avro-tools with following content:
 #!/bin/bash
-java -jar /usr/local/bin/avro-tools-1.7.7.jar "$@"%
+java -jar /usr/local/bin/avro-tools-1.7.7.jar "$@"
 
-* /usr/local/bin/avro-tools-1.7.7.jar can downloaded from http://central.maven.org/maven2/org/apache/avro/avro-tools/1.7.4/avro-tools-1.7.4.jar
+* /usr/local/bin/avro-tools-1.7.7.jar can be downloaded from http://central.maven.org/maven2/org/apache/avro/avro-tools/1.7.4/avro-tools-1.7.4.jar
 and then add exec permissions with "chmod u+x /usr/local/bin/avro-tools-1.7.7.jar"
 
 * Verify that it works with opening new terminal and submitting avro-tools
