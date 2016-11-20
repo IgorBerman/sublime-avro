@@ -14,4 +14,9 @@ java -jar /usr/local/bin/avro-tools-1.7.7.jar "$@"
 and then add exec permissions with "chmod u+x /usr/local/bin/avro-tools"
 * Verify that it works with opening new terminal and submitting 'avro-tools'
 
-# Package installation will follow
+# Plugin installation
+via Package Control
+
+* Make sure you have Package Control installed.
+* Open the Command Palette (command-shift-P on macOS; ctrl-shift-P on Ubuntu) and choose Install Package.
+* Choose Avro-reader from the list.
