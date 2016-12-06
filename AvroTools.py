@@ -47,6 +47,7 @@ class AvroCommand(sublime_plugin.TextCommand):
 
         self.view.set_name(os.path.basename(filename))
         self.view.set_read_only(True)
+        self.view.set_scratch(True)
 
 
 class OpenAvroFile(sublime_plugin.EventListener):
