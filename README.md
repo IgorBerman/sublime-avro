@@ -1,5 +1,5 @@
 # sublime-avro
-Reads Apache Avro files in Sublime Text. The records are shown in JSON format, one JSON object per line. Avro files are opened in read-only mode.
+Reads Apache Avro files in Sublime Text. The records are shown in JSON format, one JSON object per line. Avro files are opened in read-only mode. Tested with Sublime 3.
 
 # Based on https://github.com/yuj/sublime-parquet
 
